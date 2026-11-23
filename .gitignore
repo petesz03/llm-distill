@@ -1,0 +1,39 @@
+# Data and papers (kept locally, not in git)
+data/
+refs/
+
+# Experiments:
+notebooks/
+experiments/
+
+# Agent instruction files
+AGENTS.md
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tooling
+.venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Experiment outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+*.safetensors
+*.pt
+*.bin
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
