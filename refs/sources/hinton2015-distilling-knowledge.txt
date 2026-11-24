@@ -1,0 +1,3 @@
+Title: Distilling the Knowledge in a Neural Network (2015)
+Website: https://arxiv.org/abs/1503.02531
+Authors: Geoffrey Hinton, Oriol Vinyals, Jeff Dean

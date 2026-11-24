@@ -1,6 +1,6 @@
 # Data and papers (kept locally, not in git)
 data/
-refs/
+refs/pdfs
 
 # Experiments:
 notebooks/
@@ -31,6 +31,10 @@ checkpoints/
 wandb/
 *.safetensors
 *.bin
+
+# App specific extensions
+*.pdfchat
+*.pdfmark
 
 # Editors / OS
 .vscode/
