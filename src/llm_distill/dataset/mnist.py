@@ -1,13 +1,3 @@
-"""MNIST download and loading.
-
-Used for the preliminary experiments of Hinton, Vinyals, Dean (2015),
-"Distilling the Knowledge in a Neural Network", Sec. 3.
-refs/01-foundations/hinton2015-distilling-knowledge.pdf
-
-Files are saved as the original gzipped IDX files under ``<workspace>/data/mnist/``.
-A file is downloaded only if it is missing or fails its MD5 check.
-"""
-
 import gzip
 import hashlib
 import urllib.request
@@ -75,7 +65,6 @@ def download_mnist(root: Path | str = MNIST_DIR) -> Path:
     for filename, md5 in FILES.items():
         dest = root / filename
         if _is_valid(dest, md5):
-            print(f"Found {dest}, skipping")
             continue
         _download(filename, md5, dest)
     return root
