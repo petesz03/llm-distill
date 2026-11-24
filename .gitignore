@@ -4,7 +4,7 @@ refs/
 
 # Experiments:
 notebooks/
-experiments/
+experiments_tmp/
 
 # Agent instruction files
 AGENTS.md
@@ -30,7 +30,6 @@ outputs/
 checkpoints/
 wandb/
 *.safetensors
-*.pt
 *.bin
 
 # Editors / OS
